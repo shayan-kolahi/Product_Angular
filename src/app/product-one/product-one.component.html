@@ -1,0 +1,96 @@
+
+<div class="container my-5">
+
+  <div class="border bg-light p-3 rounded my-4">
+    <h5 class="font-weight-bold text-capitalize m-0">men's clothing</h5>
+    <div class="w-100 mt-4 d-flex flex-wrap">
+      <div class="col-lg-4 p-1" *ngFor="let i of data_filter_1">
+        <div class="card p-3">
+          <img class="card-img-top" src="{{i.image}}" alt="Card image cap">
+          <div class="card-body p-0">
+            <h5 class="card-title">{{i.title}}</h5>
+            <p class="card-text">{{i.description}}</p>
+
+            <div class="d-flex flex-column">
+              <span class="mb-2"><i class="far mr-1 fa-money-bill"></i>{{i.price}}</span>
+              <span class="mb-2"><i class="far mr-1 fa-star"></i>{{i.rating.rate}}</span>
+              <span class="mb-2"><i class="far mr-1 fa-eye"></i>{{i.rating.count}}</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="border bg-light p-3 rounded my-4">
+    <h5 class="font-weight-bold text-capitalize m-0">jewelery</h5>
+    <div class="w-100 mt-4 d-flex flex-wrap">
+      <div class="col-lg-4 p-1" *ngFor="let i of data_filter_2">
+        <div class="card p-3">
+          <img class="card-img-top" src="{{i.image}}" alt="Card image cap">
+          <div class="card-body p-0">
+            <h5 class="card-title">{{i.title}}</h5>
+            <p class="card-text">{{i.description}}</p>
+
+            <div class="d-flex flex-column">
+              <span class="mb-2"><i class="far mr-1 fa-money-bill"></i>{{i.price}}</span>
+              <span class="mb-2"><i class="far mr-1 fa-star"></i>{{i.rating.rate}}</span>
+              <span class="mb-2"><i class="far mr-1 fa-eye"></i>{{i.rating.count}}</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="border bg-light p-3 rounded my-4">
+    <h5 class="font-weight-bold text-capitalize m-0">electronics</h5>
+    <div class="w-100 mt-4 d-flex flex-wrap">
+      <div class="col-lg-4 p-1" *ngFor="let i of data_filter_3">
+        <div class="card p-3">
+          <img class="card-img-top" src="{{i.image}}" alt="Card image cap">
+          <div class="card-body p-0">
+            <h5 class="card-title">{{i.title}}</h5>
+            <p class="card-text">{{i.description}}</p>
+
+            <div class="d-flex flex-column">
+              <span class="mb-2"><i class="far mr-1 fa-money-bill"></i>{{i.price}}</span>
+              <span class="mb-2"><i class="far mr-1 fa-star"></i>{{i.rating.rate}}</span>
+              <span class="mb-2"><i class="far mr-1 fa-eye"></i>{{i.rating.count}}</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="border bg-light p-3 rounded my-4">
+    <h5 class="font-weight-bold text-capitalize m-0">women's clothing</h5>
+    <div class="w-100 mt-4 d-flex flex-wrap">
+      <div class="col-lg-4 p-1" *ngFor="let i of data_filter_4">
+        <div class="card p-3">
+          <img class="card-img-top" src="{{i.image}}" alt="Card image cap">
+          <div class="card-body p-0">
+            <h5 class="card-title">{{i.title}}</h5>
+            <p class="card-text">{{i.description}}</p>
+
+            <div class="d-flex flex-column">
+              <span class="mb-2"><i class="far mr-1 fa-money-bill"></i>{{i.price}}</span>
+              <span class="mb-2"><i class="far mr-1 fa-star"></i>{{i.rating.rate}}</span>
+              <span class="mb-2"><i class="far mr-1 fa-eye"></i>{{i.rating.count}}</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
